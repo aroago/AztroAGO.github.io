@@ -1,0 +1,16 @@
+{
+    "name": "Aztro Progressive Web App",
+    "short_name": "Aztro",
+    "description": "Progressive Web App that lists daily horoscope.",
+    "icons": [
+        {
+            "src": "data/img/favicon.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/PWA/index.html",
+    "display": "fullscreen",
+    "theme_color": "#D9E4DD",
+    "background_color": "#fff"
+}
