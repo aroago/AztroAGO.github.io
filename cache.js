@@ -16,8 +16,8 @@ for (let i = 0; i < signs.length; i++) {
   signsImages.push(`data/img/${signs[i]}.svg`);
   otherImages.push(`data/img/bg-${signs[i]}.jpg`);
 }
-const contentToCache = appShellFiles.concat(signsImages).concat(otherImages);
-
+const firstContentToCache = appShellFiles.concat(signsImages);
+const ContentToCache =firstContentToCache.concat(otherImages);
 // Installing Service Worker
 self.addEventListener('install', (e) => {
   console.log('[Service Worker] Install');
